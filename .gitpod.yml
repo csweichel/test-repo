@@ -1,2 +1,5 @@
 tasks:
-- command: gp open hello.txt
+- init: date +%s > init
+  before: date +%s > before
+  prebuild: date +%s > prebuild
+  command: date +%s > command
