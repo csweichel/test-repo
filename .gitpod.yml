@@ -1,0 +1,2 @@
+tasks:
+- prebuild: sleep 5m
