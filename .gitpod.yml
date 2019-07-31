@@ -1,2 +1,6 @@
+github:
+  prebuilds:
+    master: true
+    branches: true
 tasks:
 - prebuild: sleep 5m
