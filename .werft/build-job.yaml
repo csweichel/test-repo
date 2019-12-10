@@ -12,3 +12,4 @@ pod:
         cd /workspace
         ls
         sleep 31
+        echo hi
