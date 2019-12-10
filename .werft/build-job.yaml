@@ -11,4 +11,4 @@ pod:
         apk add --no-cache sed
         cd /workspace
         ls
-        sleep 25
+        sleep 30
