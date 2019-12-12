@@ -1,3 +1,10 @@
+args:
+- name: version
+  desc: "public facing version name"
+  required: false
+- name: release
+  desc: "do a public release (true/false)"
+  required: true
 pod:
   containers:
   - name: build
