@@ -15,7 +15,9 @@ pod:
       - sh 
       - -c
       - |
+        echo "[prep|PHASE] build preparing"
         apk add --no-cache sed
+        echo "[build|PHASE] build running"
         cd /workspace
         ls
         sleep 31
