@@ -23,4 +23,4 @@ pod:
         ls
         sleep 33
         echo h4
-        echo "[url|RESULT] https://github.com"
+        echo "[url|RESULT] https://github.com/"
