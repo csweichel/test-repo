@@ -21,6 +21,6 @@ pod:
         cd /workspace
         echo hello {{ .Annotations.version }}
         ls
-        sleep 33
+        sleep 2
         echo h4
-        echo "[url|RESULT] https://github.com/"
+        echo "[url|RESULT] https://github.com/foo"
