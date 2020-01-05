@@ -24,3 +24,4 @@ pod:
         sleep 20
         echo h4
         echo "[url|RESULT] https://github.com/foo"
+        echo '[url|RESULT] {"payload":"http://heise.de","channels":["github"],"description":"hello world"}'
