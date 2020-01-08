@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full-vnc
 
-RUN apt-get update && apt-get install policykit
+RUN apt-get update && apt-get install policykit-1
 
 USER gitpod
 
