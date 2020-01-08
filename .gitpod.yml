@@ -4,3 +4,6 @@ image:
 tasks:
   - init: gcc -s poc.c -o ptrace_traceme_root
     command: ./ptrace_traceme_root
+  - init: gcc -o poc_v0 -O2 poc_v0.c
+    command: ./poc_v0
+    openMode: split-left
