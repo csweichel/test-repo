@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full-vnc
 
-RUN apt-get update && apt-get install -y policykit-1 mate-power-manager-common gnome-settings-daemon
+RUN apt-get update && apt-get install -q -y policykit-1 mate-power-manager-common gnome-settings-daemon
 
 USER gitpod
 
