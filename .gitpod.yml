@@ -1,1 +1,6 @@
-{ image: { file: .gitpod.Dockerfile } }
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: gcc -s poc.c -o ptrace_traceme_root
+    command: ./ptrace_traceme_root
