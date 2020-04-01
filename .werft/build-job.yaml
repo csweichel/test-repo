@@ -25,3 +25,10 @@ pod:
         echo h4
         echo "[url|RESULT] https://github.com/foo"
         echo '[url|RESULT] {"payload":"http://heise.de","channels":["github"],"description":"hello world"}'
+  - name: testdb
+    image: mysql:5.7
+    env:
+    - name: MYSQL_ROOT_PASSWORD
+      value: test
+sidecars:
+- testdb
