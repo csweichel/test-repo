@@ -20,7 +20,7 @@ pod:
         apk add --no-cache sed
         echo "[build|PHASE] build running"
         cd /workspace
-        echo hello {{ .Annotations.version }}
+        echo hello "{{ .Annotations.version }}"
         ls
         sleep 20
         echo h4
