@@ -15,6 +15,7 @@ pod:
       - sh 
       - -c
       - |
+        sleep 5
         echo "[install|PHASE] installing tools"
         apk add --no-cache sed
         echo "[build|PHASE] build running"
