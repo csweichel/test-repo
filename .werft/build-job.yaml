@@ -33,3 +33,4 @@ pod:
       value: test
 sidecars:
 - testdb
+- foobar
