@@ -1,0 +1,3 @@
+privileged: true
+image: 
+  file: .gitpod.Dockerfile
