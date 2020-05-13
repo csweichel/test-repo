@@ -1,4 +1,4 @@
 FROM gitpod/workspace-full
 
 COPY colortab.sh .
-RUN ./colortab.sh; sleep 30
+RUN ./colortab.sh; sleep 31
