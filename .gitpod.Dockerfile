@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full:latest
 
-ENV foo=3
+ENV foo=4
