@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full:latest
 
-ENV foo=6
+RUN apt-get update && apt-get install -yq uidmap
