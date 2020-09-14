@@ -1,4 +1,3 @@
 FROM gitpod/workspace-full
 
-COPY colortab.sh .
-RUN ./colortab.sh; sleep 31
+RUN apt-get update && apt-get install -y bb
