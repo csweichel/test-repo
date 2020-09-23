@@ -13,7 +13,7 @@ func main() {
 		Cloneflags: syscall.CLONE_NEWUSER | syscall.CLONE_NEWNS,
 		UidMappings: []syscall.SysProcIDMap{
 			{ContainerID: 0, HostID: os.Getuid(), Size: 1},
-			{ContainerID: 1, HostID: 100000, Size: 10},
+			{ContainerID: 1, HostID: 100000, Size: 65536},
 		},
 		GidMappings: []syscall.SysProcIDMap{
 			{ContainerID: 0, HostID: os.Getgid(), Size: 1},
