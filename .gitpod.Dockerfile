@@ -1,5 +1,5 @@
 FROM gitpod/workspace-full:latest
 
 USER root
-RUN apt-get update && apt-get install -y uidmap
+RUN apt-get update && apt-get install -y uidmap slirp4netns
 ENV foo=6
