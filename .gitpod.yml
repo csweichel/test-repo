@@ -6,4 +6,4 @@ tasks:
       mkdir $HOME/bin
       ln -s /theia/supervisor $HOME/bin/newuidmap
       ln -s /theia/supervisor $HOME/bin/newgidmap
-      export PATH=$HOME/bin
+      export PATH=$HOME/bin:$PATH
