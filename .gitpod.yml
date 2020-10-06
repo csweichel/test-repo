@@ -1,3 +1,9 @@
 image:
   file: .gitpod.Dockerfile
   context: .
+tasks:
+  - init: |
+      mkdir $HOME/bin
+      ln -s /theia/supervisor $HOME/bin/newuidmap
+      ln -s /theia/supervisor $HOME/bin/newgidmap
+      export PATH=$HOME/bin
