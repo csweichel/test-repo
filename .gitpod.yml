@@ -8,3 +8,4 @@ tasks:
       ln -s /theia/supervisor $HOME/bin/newgidmap
       export PATH=$HOME/bin:$PATH
       go get github.com/rootless-containers/rootlesskit/cmd/rootlesskit
+      curl -fsSL https://get.docker.com/rootless | SKIP_IPTABLES=1 sh
