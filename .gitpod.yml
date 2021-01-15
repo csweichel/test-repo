@@ -1,3 +1,4 @@
 tasks:
-  - before: go build main.go && ./main &
+  - before: go build main.go
+    init: ./main &
     command: ps guaxf | grep --color 'main\|$'
