@@ -1,4 +1,5 @@
 tasks:
   - before: go build main.go
-    command: exec ./main
+    command: ./main &
   - init: gcc -o zombie zombie.c
+    openIn: right
