@@ -1,3 +1,2 @@
 tasks:
   - before: go build main.go && ./main &
-    command: fg
