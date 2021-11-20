@@ -1,2 +1,1 @@
-image:
-  file: .gitpod.Dockerfile
+image: nixery.dev/shell/git/htop
