@@ -1,4 +1,4 @@
 tasks:
   - name: foobar
-    init: sleep 0
+    init: sleep 30
       
