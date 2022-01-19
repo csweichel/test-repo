@@ -1,3 +1,1 @@
-FROM gitpod/workspace-full:latest
-
-ENV foo=6
+FROM amazonlinux
