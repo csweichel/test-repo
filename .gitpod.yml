@@ -1,2 +1,4 @@
+image:
+  file: .gitpod.Dockerfile
 checkoutLocation: src/github.com/32leaves/hello-ui
 workspaceLocation: /
