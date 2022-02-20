@@ -15,6 +15,8 @@ pod:
       - sh 
       - -c
       - |
+        set -x
+
         sleep 5
         echo "[install|PHASE] installing tools"
         apk add --no-cache sed
@@ -22,6 +24,8 @@ pod:
         cd /workspace
         echo hello "{{ .Annotations.version }}"
         ls
+        cat .werft/build.yaml
+        echo "cat done"
         sleep 20
         echo from main
         echo "[url|RESULT] https://github.com/foo"
