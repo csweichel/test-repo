@@ -26,3 +26,4 @@ pod:
         echo from main
         echo "[url|RESULT] https://github.com/foo"
         echo '[url|RESULT] {"payload":"http://heise.de","channels":["github"],"description":"from main"}'
+        sleep 5
