@@ -23,6 +23,6 @@ pod:
         echo hello "{{ .Annotations.version }}"
         ls
         sleep 20
-        echo h4
+        echo from main
         echo "[url|RESULT] https://github.com/foo"
-        echo '[url|RESULT] {"payload":"http://heise.de","channels":["github"],"description":"hello world"}'
+        echo '[url|RESULT] {"payload":"http://heise.de","channels":["github"],"description":"from main"}'
