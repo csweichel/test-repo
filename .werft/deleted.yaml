@@ -1,0 +1,16 @@
+pod:
+  containers:
+  - name: build
+    image: golang:1.17
+    workingDir: /workspace
+    imagePullPolicy: IfNotPresent
+    command:
+      - sh 
+      - -c
+      - |
+        set -x
+
+        sleep 5
+        echo deleted event
+        echo '{{ toJson . }}'
+        sleep 5
