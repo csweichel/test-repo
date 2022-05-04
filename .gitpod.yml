@@ -1,2 +1,1 @@
-image:
-  file: .gitpod.Dockerfile
+image: registry-1.testing.gitpod-self-hosted.com:5000/gitpod/gitpod/workspace-full:latest
