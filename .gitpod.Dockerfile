@@ -1,3 +1,3 @@
-FROM gitpod/workspace-full:latest
+FROM ubuntu:jammy
 
 ENV foo=8
