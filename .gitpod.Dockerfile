@@ -1,3 +1,4 @@
 FROM gitpod/workspace-full:latest
 
-ENV foo=8
+USER root
+RUN rm /etc/resolv.conf
