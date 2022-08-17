@@ -1,3 +1,3 @@
-FROM gitpod/workspace-full:latest
+FROM ubuntu:22.10
 
-ENV foo=8
+RUN apt-get update && apt-get install -y sudo podman
