@@ -1,2 +1,6 @@
 image:
   file: .gitpod.Dockerfile
+
+tasks:
+  - before: export CONTAINERS_STORAGE_CONF=/workspace/test-repo/storage.conf
+    command: sudo -E podman --runtime=/workspace/test-repo/runc-facade --log-level=debug run docker.io/library/httpd
