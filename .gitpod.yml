@@ -1,1 +1,2 @@
-image: amazonlinux:2022.0.20220831.1
+image: 
+  file: .gitpod.Dockerfile
